@@ -1,0 +1,386 @@
+From 110b40703c8eb37400d00ca0eb39381ced912225 Mon Sep 17 00:00:00 2001
+From: Jazz Villanueva <jazzv88@gmail.com>
+Date: Mon, 6 Jun 2016 15:47:14 -0700
+Subject: [PATCH] initialcommit
+
+---
+ gallery.html         | 23 ++++++++++++++++++++++
+ index.css            | 38 ++++++++++++++++++++++++++++++++++++
+ index.html           | 47 ++++++++++++++++++++++++++++++++++++++++++++
+ sasquatchsummit.css  | 22 +++++++++++++++++++++
+ sasquatchsummit.html | 30 ++++++++++++++++++++++++++++
+ toolsandtricks.css   | 55 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ toolsandtricks.html  | 54 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ trapsandbait.css     |  5 +++++
+ trapsandbait.html    | 29 +++++++++++++++++++++++++++
+ 9 files changed, 303 insertions(+)
+ create mode 100644 gallery.html
+ create mode 100644 index.css
+ create mode 100644 index.html
+ create mode 100644 sasquatchsummit.css
+ create mode 100644 sasquatchsummit.html
+ create mode 100644 toolsandtricks.css
+ create mode 100644 toolsandtricks.html
+ create mode 100644 trapsandbait.css
+ create mode 100644 trapsandbait.html
+
+diff --git a/gallery.html b/gallery.html
+new file mode 100644
+index 0000000..da8891a
+--- /dev/null
++++ b/gallery.html
+@@ -0,0 +1,23 @@
++<html>
++  <head>
++    <title>THE Gallery</title>
++  </head>
++
++  <body>
++    <header>
++      <h1>THE Gallery</h1>
++      <h2>Have YOU Seen Big Foot?</h2>
++    </header>
++    <article>
++      <ol>
++        <li>
++          <img src="https://i.ytimg.com/vi/i-ZUNgAivkQ/maxresdefault.jpg">Lake Ruby -- June 3, 2016</a>
++        </li>
++        <br/>
++        <li>
++          <img src="http://www.mountsthelens.com/images/db_Bigfoot43_1_.jpg">PythonSnake Plateau -- June 3, 2016</a>
++        </li>
++      </ol>
++    </article>
++  </body>
++</html>
+diff --git a/index.css b/index.css
+new file mode 100644
+index 0000000..f08ff07
+--- /dev/null
++++ b/index.css
+@@ -0,0 +1,38 @@
++body{
++  margin:0 auto;
++  width:80%;
++  background-color: burlywood;
++  color: darkolivegreen;
++}
++h1{
++  text-align: center;
++  font-family: Tahoma, Geneva, sans-serif;
++  margin-top: 5%;
++  font-size: 450%;
++}
++h2{
++  text-align: center;
++  font-family: Tahoma, Geneva, sans-serif
++}
++nav{
++  text-align: center;
++  font-family: Tahoma, Geneva, sans-serif
++}
++img {
++    border: 4px solid darkolivegreen;
++    width: 65%;
++    margin-left: 18%;
++}
++li{
++  list-style-type: none;
++  display: inline;
++  text-align: center;
++}
++.spacing{
++  margin-right: 10%;
++  margin-top: 10  %;
++}
++article{
++  font-family: Tahoma, Geneva, sans-serif;
++  margin-top: 20%;
++}
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..23f2a39
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,47 @@
++<html>
++  <head>
++    <title>Desperately Seeking Sasquatch</title>
++    <link rel="stylesheet" href="index.css">
++  </head>
++
++  <body>
++    <header>
++      <h1>Desperately Seeking Sasquatch</h1>
++      <h2>Are you looking for adventure?</h2>
++    </header>
++    <nav>
++      <ul>
++        <li class="spacing">
++          <a href="https://en.wikipedia.org/wiki/Bigfoot">What is Sasquatch?</a>
++        </li>
++        <li class="spacing">
++          <a href="tipsandtricks.html">Tips &amp; Tricks</a>
++        </li>
++        <li class="spacing">
++          <a href="thebighike.html">Hiking for Sasquatch</a>
++        </li>
++        <li>
++          <a href="gallery.html">Gallery</a>
++        </li>
++      </ul>
++    </nav>
++
++    <img src="http://www.bigcatstickershack.com/files/6613/5776/3270/WA.jpg">
++
++    <article>
++      <hr>
++      <h2>Sasquatch News &amp; Alerts</h2>
++        <hr>
++        <h3>Sasquatch Sighting in the Farmlands of Fall City, Washington -- June 1, 2016</h2>
++        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="viewfullarticle.html">View Full Article</a></p>
++        <hr>
++        <h3>Birch Bay Bigfoot Babies -- May 27, 2016</h2>
++        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="viewfullarticle.html">View Full Article</a></p>
++        <hr>
++        <h3>Washingtonians Rally for the Preservation of Sasquatch Natural Habitats -- May 15, 2016</h2>
++        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="viewfullarticle.html">View Full Article</a></p>
++      <hr>
++      <a href="viewmorearticles.html">View More Articles</a>
++    </article>
++  </body>
++</html>
+diff --git a/sasquatchsummit.css b/sasquatchsummit.css
+new file mode 100644
+index 0000000..dccadfb
+--- /dev/null
++++ b/sasquatchsummit.css
+@@ -0,0 +1,22 @@
++header h1{
++    text-align: center;
++    font-size: 45px;
++    background-color: #B2A358;
++}
++header ul li{
++    display: inline-block;
++    margin-left: 15%;
++    font-size: 30px;
++    text-decoration: underline;
++}
++header a{
++  color: black;
++}
++
++img{
++  width:880px;
++  height: 660px;
++  padding-left: 22.7%;
++}
++body{background-color: #D1BF8D;
++}
+diff --git a/sasquatchsummit.html b/sasquatchsummit.html
+new file mode 100644
+index 0000000..cac21d4
+--- /dev/null
++++ b/sasquatchsummit.html
+@@ -0,0 +1,30 @@
++<html>
++
++<link rel="stylesheet" href="sasquatchsummit.css">
++  <head>
++    <Title>Desperately Seeking Sasquatch</title>
++  </head>
++
++
++  <body>
++    <header>
++      <h1>Sasquatch Summit</h1>
++      <ul>
++        <li><a href="sasquatchsummit">Hike</a></li>
++        <li><a href="tips.html">Tips &amp; Tricks</a></li>
++        <li><a href="index.html">Home</a></li>
++        <li><a href="trapsandbait">Traps and Bait</a></li>
++
++      </ul>
++      <img src="https://hikingnorthwest.files.wordpress.com/2013/06/img_6360.jpg">
++    </header>
++
++      <section>
++        <h2>Summary</h2>
++          <p>This rugged hike is perfect for the seasoned hiker determined to have the best chance of seeing the elusive sasquatch! This is one of the most world-renowned sighting trails! Wind through endless hours of spooky woodlands that are the home of the hairy hermit. Dozens have caught site of his lustrous locks, and more have seen proof of his presence by way of giant bigfoot tracks along the streams below the summit. Bring your binoculars and rain slicker, and prepare to be one of the elite who has seen a the mighty sasquatch.</p>
++        <h2>Directions</h2>
++          <p>Located in the imaginary forest, just 20km from Yuwontfindis Village. Find the trailhead by traveling south 22.3km from the village, then taking a left at the fork. Follow that dirt road until you can no longer drive. Park there and crawl over the wooden fence beside the sign for Sasquatch Summit. Good luck!</p>
++        </section>
++  </body>
++
++</html>
+diff --git a/toolsandtricks.css b/toolsandtricks.css
+new file mode 100644
+index 0000000..bd7bf8d
+--- /dev/null
++++ b/toolsandtricks.css
+@@ -0,0 +1,55 @@
++body {
++  background-image: url(http://vignette2.wikia.nocookie.net/youtaites/images/a/a9/Background-radial-gradient-dark.jpg/revision/latest?cb=20150214024058);
++  background-repeat: no-repeat;
++  background-position: center;
++  background-attachment: fixed;
++  background-size: cover;
++  font-family: 'Share', cursive;
++  font-size: 25;
++}
++section {
++  display: flex;
++  justify-content: space-between;
++  margin: 50px;
++  margin-left: 280px;
++}
++
++img, p {
++  margin: 50px;
++}
++
++ul {
++  color: navy;
++}
++
++nav {
++  font-size: 30px;
++}
++
++h1 {
++  text-align: center;
++  font-size: 60px;
++}
++
++.horizontal {
++    float: left;
++    position: absolute;
++    top: 180px;
++    width: 170px;
++    height: 345px;
++    margin: 15px;
++    border: 0px;
++}
++
++h3 {
++  font-size: 36px;
++}
++
++li {
++  font-size: 20px;
++}
++
++.reading {
++  margin-left: 50px;
++  margin-right: 50px;
++}
+diff --git a/toolsandtricks.html b/toolsandtricks.html
+new file mode 100644
+index 0000000..17db0bc
+--- /dev/null
++++ b/toolsandtricks.html
+@@ -0,0 +1,54 @@
++<html>
++  <head>
++    <title>Desperately Seeking Sasquatch</title>
++    <link rel="stylesheet" href="tips.css">
++    <link href='https://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css'>
++  </head>
++
++  <body>
++    <header>
++      <nav>
++        <a href="index.html">Home</a> |
++        <a href="hikes.html">Hikes</a>
++      </nav>
++        <h1>Tools & Tricks</h1>
++        <section>
++        <br><img src="http://cdnl.skymall.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/2/0/203361436dw.jpg">
++        <br><p>In early October 2010, Chinese scientists announced that they're
++            looking to add new members to their special team searching for Bigfoot in the Hubei Province.
++            The legend of Bigfoot continues to thrive and if you're fascinated with Bigfoot, maybe you've got
++            what it takes to experience a Bigfoot sighting yourself. Here are some suggestions for how you
++            can search for this legendary creature.
++          </section>
++    </header>
++    <aside>
++      <div class="horizontal">
++      <h3>Tools</h3>
++      <ul>
++        <li>Safety gear
++        <li>Camping
++        <li>Cameras
++        <li>Decoys
++        <li>Traps
++        </ul>
++      <h3>Tricks</h3>
++      <ul>
++        <li>Scenting
++        <li>Sasquatch Calls
++        <li><a href="http://www.al.com/living/index.ssf/2013/11/bigfoot-hunting_tips_part_2_th.html" target="_blank">The Power of Bacon
++        </a>
++      </ul>
++    </div>
++    </aside>
++
++  <div class="reading">
++    <h3>Further Reading</h3>
++    <h4>
++        The Bigfoot Book: The Encyclopedia of Sasquatch, Yeti and Cryptid Primates<br></h4>
++        Does a hulking, hairy, 800-pound, nine-foot-tall, elusive primate roam the woods and forests
++          throughout North America--and the world? What should we make of the grainy videos and photos and
++          the thousands of eyewitness reports? Audio-recordings exist purporting ... (<a href="https://play.google.com/store/books/details?id=KsGHCgAAQBAJ&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CLizu92Mj80CFWEvfgodXu8I9Q&gclsrc=ds" target="_blank">read more</a>)<br>
++        <img src="https://books.google.com/books/content/images/frontcover/KsGHCgAAQBAJ?fife=w300-rw" href="https://play.google.com/store/books/details?id=KsGHCgAAQBAJ&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CLizu92Mj80CFWEvfgodXu8I9Q&gclsrc=ds" target="_blank"></a>
++    </div>
++  </body>
++</html>
+diff --git a/trapsandbait.css b/trapsandbait.css
+new file mode 100644
+index 0000000..848b70f
+--- /dev/null
++++ b/trapsandbait.css
+@@ -0,0 +1,5 @@
++Body {
++
++  background-color: black;
++  color: white;
++}
+diff --git a/trapsandbait.html b/trapsandbait.html
+new file mode 100644
+index 0000000..70d83de
+--- /dev/null
++++ b/trapsandbait.html
+@@ -0,0 +1,29 @@
++<html>
++<header>
++<title>
++  Desperately Seeking Sasquatch-Traps and Bait
++</title>
++<link rel="stylesheet"href="trapsandbait.css">
++</header>
++<body>
++  <a href="">Home Page</a>
++  <a href="">Hikes</a>
++  <h1> What does Sasquatch eat?
++  </h1>
++  <image src="https://s-media-cache-ak0.pinimg.com/236x/46/5c/21/465c212fa109f909facd5dae857642cf.jpg">
++  <p>According to experts sasquatch is an omnivore that consumes around 5,000 calories daily. The majority of their diet consist of nuts, berries, and some game. Though most witnesses claim Sasquatch always has a bag of beef jerky in hand.</P>
++<h2>Commonly Used Bait</h2>
++<p>Foods that are commonly used for bait.</P>
++  <ul>
++    <li>Beef Jerky</li>
++      <li>Berries</li>
++        <li>apples</li>
++          <li>seeds</li>
++            <li>Fast Food: KFC, McDonalds, Burger King, etc. </il>
++            </ul>
++      <h2> Trapping</h2>
++      <p>Nobody has ever successfuly trapped sasquatch so it is hard to rank the different tactics. Some think the best way to trap Sasquatch is to bait him and set up a custom trap or bear trap. Others believe the best tactic is to track sasquatch to its nest and try to trap it in its sleep.Personally we would recommend building a custom trap like the one in the video below.</p>
++      <iframe width="420" height="315" src="https://www.youtube.com/embed/0fDr8sXBNgw" frameborder="0" allowfullscreen></iframe>
++
++</body>
++</html>
+-- 
+2.7.4 (Apple Git-66)
+
