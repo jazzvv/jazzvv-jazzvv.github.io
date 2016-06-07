@@ -5,20 +5,22 @@ body{
 }
 h1{
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
   color: black;
   margin: 5% auto;
   font-size: 450%;
 }
 h2{
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
   color: orangered;
+  font-size: 250%;
   margin: 5% auto;
 }
 nav{
   text-align: center;
-  font-family: Tahoma, Geneva, sans-serif
 }
 img {
     border: 4px solid darkolivegreen;
@@ -31,10 +33,11 @@ li{
   display: inline;
   text-align: center;
   margin-top: 10%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
 }
 .spacing{
-  margin-right: 3%;
+  margin-right: 8%;
 }
 article{
   font-family: "Courier New", Courier, monospace;
@@ -46,7 +49,7 @@ article{
   font-weight: bold;
 }
 html {
-  background: url(http://wallpapers55.com/wp-content/uploads/2014/07/artistic-rain-forest-wallpaper.jpg) no-repeat center center fixed; 
+  background: url(http://wallpapers55.com/wp-content/uploads/2014/07/artistic-rain-forest-wallpaper.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
