@@ -1,18 +1,20 @@
 body{
-  margin:0 auto;
+  margin:5% auto;
   width:80%;
-  background-color: burlywood;
   color: darkolivegreen;
 }
 h1{
   text-align: center;
-  font-family: Tahoma, Geneva, sans-serif;
-  margin-top: 5%;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  margin: 5% auto;
   font-size: 450%;
 }
 h2{
   text-align: center;
-  font-family: Tahoma, Geneva, sans-serif
+  font-family: "Courier New", Courier, monospace;
+  color: orangered;
+  margin: 5% auto;
 }
 nav{
   text-align: center;
@@ -22,17 +24,31 @@ img {
     border: 4px solid darkolivegreen;
     width: 65%;
     margin-left: 18%;
+    margin-bottom: 20%;
 }
 li{
   list-style-type: none;
   display: inline;
   text-align: center;
+  margin-top: 10%;
+  font-family: "Courier New", Courier, monospace;
 }
 .spacing{
-  margin-right: 10%;
-  margin-top: 10  %;
+  margin-right: 3%;
 }
 article{
-  font-family: Tahoma, Geneva, sans-serif;
-  margin-top: 20%;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+#news{
+  color: red;
+  font-weight: bold;
+}
+html {
+  background: url(http://wallpapers55.com/wp-content/uploads/2014/07/artistic-rain-forest-wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
